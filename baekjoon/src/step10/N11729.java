@@ -33,6 +33,7 @@ public class N11729 {
         // 한 개일 경우 A->C 하나만 이동
         if (n == 1) {
             sb.append(start + " " + end + "\n");
+            return;
         }
         // 1. N-1개를 A->B 로 이동
         buildHanoi(n-1, start, end, mid);
