@@ -1,4 +1,4 @@
-package step8;
+package bojstep.step8;
 
 // 부녀회장이 될거야
 // 참조: https://st-lab.tistory.com/78

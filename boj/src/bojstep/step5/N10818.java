@@ -1,4 +1,4 @@
-package step5;
+package bojstep.step5;
 
 import java.util.Arrays;
 import java.util.Scanner;

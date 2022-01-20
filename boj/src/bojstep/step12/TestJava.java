@@ -1,4 +1,4 @@
-package step12;
+package bojstep.step12;
 
 public class TestJava {
 

@@ -1,4 +1,4 @@
-package step6;
+package bojstep.step6;
 
 // 셀프넘버
 public class N4673 {

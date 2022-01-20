@@ -1,4 +1,4 @@
-package step11;
+package bojstep.step11;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package step8;
+package bojstep.step8;
 
 import java.util.Scanner;
 

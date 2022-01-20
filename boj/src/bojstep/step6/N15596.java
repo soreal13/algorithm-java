@@ -1,4 +1,4 @@
-package step6;
+package bojstep.step6;
 
 import java.util.Arrays;
 
