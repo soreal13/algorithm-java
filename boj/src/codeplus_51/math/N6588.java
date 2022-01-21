@@ -21,7 +21,7 @@ public class N6588 {
             int end = n-2;
 
             while(true) {
-                if (prime[start] == false && prime[end] == false) {
+                if (!prime[start] && !prime[end]) {
                     System.out.println(n + " = " + start+ " + " + end);
                     break;
                 }
@@ -41,7 +41,7 @@ public class N6588 {
         prime[1] = true;
 
         for(int i=2; i<=1000000; i++) {
-            if (prime[i] == false) {
+            if (!prime[i]) {
                 for (int j=2*i; j<=1000000; j+=i) {
                     prime[j] = true;
                 }
