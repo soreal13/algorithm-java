@@ -1,7 +1,5 @@
 package bojstep;
 
-import java.io.BufferedReader;
-
 public class TestJava {
 
     public static void main(String[] args) {
