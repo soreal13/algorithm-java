@@ -19,7 +19,7 @@ public class N2609 {
 
         // 최대공약수
         int min = 0;
-        for (int i=1; i<=a; i++) {
+        for (int i=1; i<=b; i++) {
             if (a % i == 0 && b % i == 0) min = i;
         }
         System.out.println(min);
