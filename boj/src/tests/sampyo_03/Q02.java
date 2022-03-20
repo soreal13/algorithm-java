@@ -14,25 +14,25 @@ public class Q02 {
         int distance= roadArray[0];
 
         // 처음과 끝 거리
-        if(roadArray[0] <= road - roadArray[roadArray.length]) {
-          distance =   road - roadArray[roadArray.length];
+        if(roadArray[0] <= road - roadArray[roadArray.length-1]) {
+          distance =  road - roadArray[roadArray.length-1];
         }
 
         boolean flag = false;
-        for (int i=0; i<roadArray.length; i++) {
-            int temp = roadArray[i+1] - roadArray[i];
+        for (int i=1; i<roadArray.length; i++) {
+            int temp = roadArray[i] - roadArray[i-1];
             if (temp > distance) {
                 distance = temp;
                 flag = true;
             }
         }
-        int answer = 0;
+        double answer = 0;
         if (flag) {
             answer = distance/2;
         } else {
             answer = distance;
         }
-
+        System.out.println(answer);
 
     }
 }
